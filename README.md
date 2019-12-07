@@ -52,7 +52,7 @@ Please stick to the style rules and make sure your code is readable and pretty â
   "totalDevices": 3920
 }
 ```
-- [ ] User should see a list of Apps that you'll get via this endpoint GET `https://pushbots-fend-challenge.herokuapp.com/apps?take=5&skip=5&sortBy=name&direction=desc`. The response should include list of apps, each app should look like this: 
+- [ ] User should see a list of Apps that you'll get via this endpoint GET `https://pushbots-fend-challenge.herokuapp.com/api/apps?take=5&skip=5&sortBy=title&direction=desc`. The response should include list of apps, each app should look like this: 
 
 ```js
 {
